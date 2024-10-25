@@ -5,7 +5,7 @@
 
 def sieve_of_eratosthenes(n):
     """
-    This generates a list of prime numbers up to n using the Sieve
+    Generates a list of prime numbers up to n using the Sieve
     of Eratosthenes
     """
     prime = [True] * (n + 1)
@@ -20,7 +20,7 @@ def sieve_of_eratosthenes(n):
 
 
 def count_primes_up_to(prime):
-    """This counts the number of primes up to each index"""
+    """Counts the number of primes up to each index"""
     count = 0
     prime_count = [0] * len(prime)
     for i in range(len(prime)):
@@ -31,7 +31,7 @@ def count_primes_up_to(prime):
 
 
 def isWinner(x, nums):
-    """This determines who the winner of the game is"""
+    """Determines who the winner of the game is"""
     if x == 0 or x == 1:
         return None
 
